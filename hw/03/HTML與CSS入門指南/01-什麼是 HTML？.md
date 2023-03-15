@@ -13,11 +13,12 @@ HTML 可用於開發各種不同類型的網頁，包括：
 
 响應式網頁：由 HTML、CSS 和媒體查詢等技術組成，可以自適應不同屏幕大小和設備。
 
-HTML的基本結構
+## 1.3HTML的基本結構
 HTML 文件由標籤、元素和內容組成，其基本結構如下：
 
 html
-Copy code
+
+、、、html
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,6 +30,7 @@ Copy code
 	網頁內容
 </body>
 </html>
+、、、
 其中：
 
 <!DOCTYPE html>：聲明文檔類型為 HTML5。
