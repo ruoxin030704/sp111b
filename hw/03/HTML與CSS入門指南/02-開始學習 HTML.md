@@ -147,7 +147,7 @@ HTML表單用於收集使用者輸入的信息。表單包含一個或多個表�
 
 < textarea >元素用於定義多行文本框
 
-<input type="submit">用於定義提交
+< input type="submit" >用於定義提交
   
   
   
