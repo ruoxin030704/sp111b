@@ -104,3 +104,52 @@ text-transform：設置文字的轉換，例如轉換為大寫、小寫等。
 	text-transform: uppercase;
 }
 ```
+	
+## 4.4CSS盒模型和定位
+### CSS盒模型
+CSS 盒模型是用來表示 HTML 元素在網頁中佔據空間的模型。每個 HTML 元素都可以被看作是一個矩形的盒子，包括以下幾個部分：
+
+content：元素的內容區域。
+	
+padding：元素的內邊距，位於內容和邊框之間。
+	
+border：元素的邊框，位於內邊距和外邊距之間。
+	
+margin：元素的外邊距，位於邊框和相鄰元素之間。
+	
+CSS 盒模型的寬度和高度可以使用以下兩種方式進行設置：
+
+content-box：元素的寬度和高度只包括內容區域，不包括內邊距、邊框和外邊距。
+	
+border-box：元素的寬度和高度包括內容區域、內邊距和邊框，但不包括外邊距。
+	
+以下是一個使用了 CSS 盒模型的範例：
+
+```css
+.box {
+	width: 200px;
+	height: 100px;
+	padding: 20px;
+	border: 1px solid #000;
+	margin: 10px;
+	box-sizing: border-box;
+}
+```
+###　CSS 定位
+CSS 定位用於控制元素在網頁中的位置和布局。CSS 提供了以下三種定位方式：
+
+static：元素的位置由文檔流決定，不能通過 top、left、right、bottom 屬性進行調整。
+relative：元素的位置相對於其原本的位置進行調整，可以通過 top、left、right、bottom 屬性進行調整。
+absolute：元素的位置相對於最近的已定位父元素進行調整，如果沒有已定位的父元素，則相對於文檔進行調整，可以通過 top、left、right、bottom 屬性進行調整。
+fixed：元素的位置相對於視窗進行調整，不會隨著頁面滾動而改變，可以通過 top、left、right、bottom 屬性進行調整。
+以下是一個使用了 CSS 定位的範例：
+
+css
+Copy code
+.box {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
