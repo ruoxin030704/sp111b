@@ -1,6 +1,6 @@
 # 第四章：開始學習CSS
 
-## 在HTML中引用CSS
+## 4.1在HTML中引用CSS
 要在HTML中使用CSS，可以使用以下方法之一：
 
 1.在HTML中使用 <style> 標籤，將 CSS 代碼嵌入到 HTML 中：
@@ -40,7 +40,7 @@
 </body>
 </html>
 ```
-## CSS的基本屬性
+## 4.2CSS的基本屬性
 CSS 的基本屬性包括：
 
 color：設置文字的顏色。
@@ -68,7 +68,7 @@ h1 {
 	text-align: center;
 }
 ```
-## 常用的 CSS 屬性
+## 4.3常用的 CSS 屬性
 CSS 提供了很多屬性，以下是一些常用的 CSS 屬性：
 
 width：設置元素的寬度。
