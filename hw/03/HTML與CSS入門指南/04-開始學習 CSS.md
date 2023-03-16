@@ -139,13 +139,16 @@ border-box：元素的寬度和高度包括內容區域、內邊距和邊框，�
 CSS 定位用於控制元素在網頁中的位置和布局。CSS 提供了以下三種定位方式：
 
 static：元素的位置由文檔流決定，不能通過 top、left、right、bottom 屬性進行調整。
+	
 relative：元素的位置相對於其原本的位置進行調整，可以通過 top、left、right、bottom 屬性進行調整。
+	
 absolute：元素的位置相對於最近的已定位父元素進行調整，如果沒有已定位的父元素，則相對於文檔進行調整，可以通過 top、left、right、bottom 屬性進行調整。
+	
 fixed：元素的位置相對於視窗進行調整，不會隨著頁面滾動而改變，可以通過 top、left、right、bottom 屬性進行調整。
+	
 以下是一個使用了 CSS 定位的範例：
-
-css
-Copy code
+	
+```CSS
 .box {
 	width: 100px;
 	height: 100px;
@@ -153,3 +156,4 @@ Copy code
 	top: 20px;
 	left: 20px;
 }
+```
